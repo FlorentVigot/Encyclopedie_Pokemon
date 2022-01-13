@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 200px;
+    width: auto;
+    background-color: #e6bc2f;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
