@@ -2,3 +2,6 @@ footer{
     height: 200px;
     background-color: black;
 }
+footer p{
+    color: white    ;
+}
