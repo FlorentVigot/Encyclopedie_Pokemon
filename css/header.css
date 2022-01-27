@@ -29,8 +29,13 @@ ul{
     display: inline-block;
     position: relative;
 }
+.dropdown:hover {
+    display: block;
+    background-color: violet;
+}
+
 .dropdown-content {
-    display: none;
+    display: block;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
@@ -50,6 +55,6 @@ li{
 ul a{
     color: #1b53ba;    
 }
-ul :hover{
+ul a:hover{
     color: #ffffff;    ;
 }
