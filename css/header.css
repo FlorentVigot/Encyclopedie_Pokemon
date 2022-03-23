@@ -26,16 +26,16 @@ ul{
     cursor:pointer;
 }
 .dropdown{
-    display: inline-block;
+    display: block;
     position: relative;
 }
-.dropdown:hover {
+.dropdown:hover, .dropdown-content {
     display: block;
-    background-color: violet;
+    background-color: blue;
 }
 
 .dropdown-content {
-    display: block;
+    display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
